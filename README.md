@@ -1,18 +1,27 @@
-## Getting Started
+# ☎️ Simple Phone System in Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is a basic Java project that simulates a **simple phone system** with key smartphone-like functionalities, using object-oriented programming principles such as **classes**, **interfaces**, and **encapsulation**.
 
-## Folder Structure
+## 🧩 Project Structure
 
-The workspace contains two folders by default, where:
+- `controller/` → Contains the main system interfaces.
+- `utils/` → Contains specific implementations like `Spotify`.
+- `model/` → Contains the `Iphone` class, simulating a smartphone device.
+- `Main.java` → The main execution class.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🎯 Project Goals
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+This project was developed as an **exercise proposed by the Bradesco Bootcamp in partnership with DIO** (Digital Innovation One).  
+Its main purpose is to **practice Java classes, interfaces, and encapsulation** in a real-world simulation context.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🔧 Features
 
-## Dependency Management
+- 🎶 Music playback system using the `MusicPlayer` interface implemented by `Spotify`.
+- 🌐 Web navigation simulation via the `InternetExplorer` interface implemented by `Safari`.
+- 📞 Phone call functionalities through the `CallingSystem` interface implemented by `Phone`.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## ✨ Author
+
+Crafted with care by **Luis Claudio**
